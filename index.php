@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>MR.KRAB | Eethuis Roosendaal</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="navbar">
+    <div class="container nav-inner">
+
+        <!-- LOGO -->
+        <a href="#home" class="logo">
+            <img src="img/krabje.png" alt="MR.KRAB logo">
+            <strong>MR.KRAB</strong>
+        </a>
+
+        <!-- NAVIGATIE -->
+        <nav>
+            <a href="#home">Home</a>
+            <a href="menu.php" class="btn btn-primary">Bekijk menu</a>
+            <a href="#over-ons">Over ons</a>
+            <a href="#reviews">Reviews</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <a href="#contact" class="nav-button">
+            Contact
+        </a>
+
+    </div>
+</header>
+
+
+<main>
+
+    <!-- =====================================
+         HERO / HOME
+    ====================================== -->
+
+    <section class="hero" id="home">
+
+        <div class="hero-overlay"></div>
+
+        <div class="container hero-content">
+
+            <div class="hero-text-content">
+
+                <p class="eyebrow">
+                    EETHUIS • ROOSENDAAL
+                </p>
+
+                <h1>
+                    Verse vis.<br>
+                    <span>Echt genieten.</span>
+                </h1>
+
+                <p class="hero-text">
+                    Heerlijke visgerechten, verse kibbeling en meer.
+                    Kom langs bij MR.KRAB in Roosendaal.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="menu.php" class="button button-primary">
+                        Bekijk menu
+                    </a>
+
+                    <a href="#contact" class="button button-outline">
+                        Route & contact
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!--
+                HERO FOTO
+
+                Zet jouw foto in:
+                img/buiten.png
+
+                Je kunt deze naam later aanpassen.
+            -->
+
+            <div class="hero-image">
+
+                <img
+                    src="img/zaakbuiten.png"
+                    alt="MR.KRAB Eethuis in Roosendaal"
+                >
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================
+         INFO BAR
+    ====================================== -->
+
+    <section class="info-bar">
+
+        <div class="container info-grid">
+
+            <div class="info-item">
+
+                <span class="info-icon">📍</span>
+
+                <div>
+                    <strong>Adres</strong>
+                    <p>Schotsbossenstraat 11B, Roosendaal</p>
+                </div>
+
+            </div>
+
+
+            <div class="info-item">
+
+                <span class="info-icon">📞</span>
+
+                <div>
+                    <strong>Telefoon</strong>
+                    <p>06 45 25 13 48</p>
+                </div>
+
+            </div>
+
+
+            <div class="info-item">
+
+                <span class="info-icon">⭐</span>
+
+                <div>
+                    <strong>Google reviews</strong>
+                    <p>4,8 / 5</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+  <!-- =====================================
+     MR.KRAB VIDEO
+====================================== -->
+
+<section class="krab-video-section">
+
+    <div class="container">
+
+        <div class="video-heading">
+
+            <p class="eyebrow">
+                BELEEF MR.KRAB
+            </p>
+
+            <h2>
+                Een kijkje<br>
+                <span>in onze zaak.</span>
+            </h2>
+
+            <p>
+                Bekijk de sfeer en ontdek MR.KRAB van dichtbij.
+            </p>
+
+        </div>
+
+
+        <div class="krab-video">
+
+            <video
+                autoplay
+                muted
+                loop
+                playsinline
+                controls
+                src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkAfXnpXayKNtL2gtLaCJSaUfJ1VunUVjUV4BSDlZHAhLC25o51CuKR5Rcq6C9uGRHDczJEPO6cCDk2Vc5fhXLlfZiRmmjzR0Y8SCC_gxfLQ7oW0ldeUDFpb1HVcypasMZq8RqM0T6YjmaR=m18">
+            </video>
+
+            <div class="video-gradient"></div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+    <!-- =====================================
+         MENU
+    ====================================== -->
+
+    <section class="section menu-section" id="menu">
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <p class="eyebrow">
+                    MENU
+                </p>
+
+                <h2>
+                    Waar heb je<br>
+                    <span>zin in?</span>
+                </h2>
+
+                <p>
+                    Ontdek onze visgerechten en andere favorieten.
+                    Het volledige menu wordt binnenkort toegevoegd.
+                </p>
+
+            </div>
+
+
+            <div class="food-grid">
+
+
+                <!-- KIBBELING -->
+
+                <article class="food-card">
+
+                    <div class="food-image">
+
+                        <img
+                            src="img/kibbeling.png"
+                            alt="Kibbeling van MR.KRAB"
+                        >
+
+                    </div>
+
+                    <div class="food-content">
+
+                        <span class="food-tag">
+                            POPULAIR
+                        </span>
+
+                        <h3>
+                            Kibbeling
+                        </h3>
+
+                        <p>
+                            Krokante kibbeling, vers bereid en
+                            ideaal voor een lekkere lunch of maaltijd.
+                        </p>
+
+                        <!-- Prijs later toevoegen -->
+                        <span class="food-price">
+                            € 12,50
+                        </span>
+
+                    </div>
+
+                </article>
+
+
+                <!-- CALAMARES -->
+
+                <article class="food-card">
+
+                    <div class="food-image">
+
+                        <img
+                            src="img/Cala.jpg"
+                            alt="Calamares van MR.KRAB"
+                        >
+
+                    </div>
+
+                    <div class="food-content">
+
+                        <h3>
+                            Calamares
+                        </h3>
+
+                        <p>
+                            Heerlijke gefrituurde calamares
+                            met een krokante bite.
+                        </p>
+
+                        <span class="food-price">
+                            € 9,50
+                        </span>
+
+                    </div>
+
+                </article>
+
+
+                <!-- VIS -->
+
+                <article class="food-card">
+
+                    <div class="food-image">
+
+                        <img
+                            src="img/versevis.png"
+                            alt="Verse vis van MR.KRAB"
+                        >
+
+                    </div>
+
+                    <div class="food-content">
+
+                        <h3>
+                            Verse vis
+                        </h3>
+
+                        <p>
+                            Ontdek onze verse visgerechten,
+                            bereid met aandacht en smaak.
+                        </p>
+
+                        <span class="food-price">
+                            € 7,50 - € 15,00
+                        </span>
+
+                    </div>
+
+                </article>
+
+
+                
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================
+         OVER ONS
+    ====================================== -->
+
+    <section class="section about-section" id="over-ons">
+
+        <div class="container about-grid">
+
+
+            <!-- GROOT LOGO -->
+
+            <div class="about-image">
+
+                <img
+                    src="img/krabje.png"
+                    alt="MR.KRAB logo"
+                    class="about-logo"
+                >
+
+            </div>
+
+
+            <!-- TEKST -->
+
+            <div class="about-content">
+
+                <p class="eyebrow">
+                    OVER MR.KRAB
+                </p>
+
+                <h2>
+                    Verse vis,<br>
+                    <span>met aandacht.</span>
+                </h2>
+
+                <p>
+                    Bij MR.KRAB draait het om lekker eten en
+                    vriendelijke service. Van verse vis tot
+                    krokante kibbeling: kom langs en ontdek
+                    wat er vandaag op het menu staat.
+                </p>
+
+                <p>
+                    Je vindt ons aan de Schotsbossenstraat 11B
+                    in Roosendaal.
+                </p>
+
+                <a href="#contact" class="button button-primary">
+                    Kom langs
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================
+         REVIEWS
+    ====================================== -->
+
+    <section class="section reviews-section" id="reviews">
+
+        <div class="container">
+
+            <div class="section-heading center">
+
+                <p class="eyebrow">
+                    REVIEWS
+                </p>
+
+                <h2>
+                    Wat klanten<br>
+                    <span>zeggen</span>
+                </h2>
+
+                <div class="rating">
+
+                    <strong>4,8</strong>
+
+                    <span>
+                        ★★★★★
+                    </span>
+
+                    
+
+                    <div class="google-review-logo">
+                    <img
+                        src="img/GoogleR.jpg"
+                        alt="Google Reviews">
+                        
+                </div>
+
+                
+                        
+                    
+
+                </div>
+
+            </div>
+
+
+            <div class="reviews-grid">
+
+
+                <article class="review-card">
+
+                    <div class="stars">
+                        ★★★★★
+                    </div>
+
+                    <p>
+                        “Echt heerlijk portie kibbeling gegeten,
+                        pure vis! Ook vriendelijk personeel.”
+                    </p>
+
+                    <strong>
+                        — Ruben D.
+                    </strong>
+
+                </article>
+
+
+                <article class="review-card">
+
+                    <div class="stars">
+                        ★★★★★
+                    </div>
+
+                    <p>
+                        “Lekker eten en aardige mensen.”
+                    </p>
+
+                    <strong>
+                        — Food Expert Mattheo
+                    </strong>
+
+                </article>
+
+
+                <article class="review-card">
+
+                    <div class="stars">
+                        ★★★★★
+                    </div>
+
+                    <p>
+                        “The fish is always fresh.”
+                    </p>
+
+                    <strong>
+                        — Elizabeth A.
+                    </strong>
+
+                </article>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================
+         CONTACT + GOOGLE MAPS
+    ====================================== -->
+
+    <section class="contact-section" id="contact">
+
+        <div class="container contact-grid">
+
+
+            <!-- CONTACT -->
+
+            <div>
+
+                <p class="eyebrow">
+                    KOM LANGS
+                </p>
+
+                <h2>
+                    Zin in<br>
+                    <span>vis?</span>
+                </h2>
+
+                <p>
+                    Je vindt MR.KRAB aan de
+                    Schotsbossenstraat 11B in Roosendaal.
+                </p>
+
+                <div class="contact-buttons">
+
+                    <a
+                        href="tel:+31645251348"
+                        class="button button-primary">
+
+                        Bel ons
+
+                    </a>
+
+
+                    <a
+                        href="https://www.google.com/maps/search/?api=1&query=Schotsbossenstraat+11B+Roosendaal"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="button button-outline">
+
+                        Route
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- OPENINGSTIJDEN -->
+
+            <div class="opening-hours">
+
+                <h3>
+                    Openingstijden
+                </h3>
+
+                <div class="hours-row">
+                    <span>Maandag</span>
+                    <strong>Gesloten</strong>
+                </div>
+
+                <div class="hours-row">
+                    <span>Dinsdag</span>
+                    <strong>12:00 – 20:00</strong>
+                </div>
+
+                <div class="hours-row">
+                    <span>Woensdag</span>
+                    <strong>12:00 – 20:00</strong>
+                </div>
+
+                <div class="hours-row">
+                    <span>Donderdag</span>
+                    <strong>12:00 – 20:00</strong>
+                </div>
+
+                <div class="hours-row">
+                    <span>Vrijdag</span>
+                    <strong>12:00 – 21:00</strong>
+                </div>
+
+                <div class="hours-row">
+                    <span>Zaterdag</span>
+                    <strong>12:00 – 21:00</strong>
+                </div>
+
+                <div class="hours-row">
+                    <span>Zondag</span>
+                    <strong>12:00 – 20:00</strong>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- GOOGLE MAP -->
+
+        <div class="container map-container">
+
+            <div class="map-heading">
+
+                <p class="eyebrow">
+                    VIND ONS
+                </p>
+
+                <h3>
+                    Waar zit MR.KRAB?
+                </h3>
+
+            </div>
+
+
+            <div class="map">
+
+                <iframe
+                    src="https://www.google.com/maps?q=Schotsbossenstraat+11B,+Roosendaal&output=embed"
+                    width="100%"
+                    height="420"
+                    style="border:0;"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<!-- =====================================
+     FOOTER
+====================================== -->
+
+<footer>
+
+    <div class="container footer-inner">
+
+        <div>
+            
+            
+
+            <div class="footer-logo">
+                MR.KRAB
+                
+            </div>
+
+            <p>
+                Eethuis in Roosendaal
+            </p>
+
+        </div>
+
+
+        <div>
+
+            <p>
+                Schotsbossenstraat 11B<br>
+                4705 AE Roosendaal
+            </p>
+
+        </div>
+
+
+        <div>
+
+            <a href="tel:+31645251348">
+                06 45 25 13 48
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <div class="copyright">
+
+        © 2026 MR.KRAB
+
+    </div>
+
+</footer>
+
+
+</body>
+</html>
